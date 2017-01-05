@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Poppins');
+
+body{
+  transition: background-color .5s ease-out;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+}
+
+h1{
+  font-family: Fjalla One;
+  font-weight: lighter;
+  color: black;
+  letter-spacing: 1px;
+  border-bottom: 5px dotted teal;
+  text-align: center;
+  margin: 30px;
+}
+
+footer{
+  font-family: Poppins;
+  text-align: center;
+  margin: 20px;
+}
+
+.btnArea{
+  border: 3px green solid;
+  border-radius: 4px;
+  height: 34px;
+  line-width: 10px;
+  width: 150px;
+  padding: 5px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color .5s ease-out;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: border-color .3s ease-out;
+}
+
+.btnArea:hover {
+  background-color: green;
+}
+
+.btnArea:hover .skateText:first-child {
+  margin-left: -130px;
+}
+
+.skateText:nth-child(2){
+  color: white;
+}
+
+.skateText{
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 0 17px;
+  transition: margin-left .5s cubic-bezier(.18,1.11,.35,1.15);
+  -webkit-transition: margin-left .5s cubic-bezier(.18,1.11,.35,1.15);
+  -moz-transition: margin-left .5s cubic-bezier(.18,1.11,.35,1.15);
+  -o-transition: margin-left .5s cubic-bezier(.18,1.11,.35,1.15);
+}
